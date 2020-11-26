@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Branch", menuName="CustomObject/Branch")]
-public class DialogueBranch : ScripatbleObject
+public class DialogueBranch : ScriptableObject
 {
     public string dialogueId = "";
     public List<string> DialogueLines;
     public List<ResponseBranch> ResponseOption;
 }
 
-[System.Serializabble]
+[System.Serializable]
 public class ResponseBranch
 {
     public string text;
