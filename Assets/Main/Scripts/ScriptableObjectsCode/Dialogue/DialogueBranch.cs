@@ -14,5 +14,5 @@ public class DialogueBranch : ScriptableObject
 public class ResponseBranch
 {
     public string text;
-    public DialogueBranch nextbranch;
+    public DialogueBranch nextBranch;
 }

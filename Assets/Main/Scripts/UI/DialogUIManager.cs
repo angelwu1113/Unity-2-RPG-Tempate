@@ -90,13 +90,13 @@ public class DialogUIManager : MonoBehaviour
                     }
 
                     responsesHolder[i].gameObject.SetActive(true);
-                    responsesHolder[i].GetComponentInChildren<TextMeshProGUI>().text = branch.ResponseOption[i].text;
+                    responsesHolder[i].GetComponentInChildren<TextMeshProUGUI>().text = branch.ResponseOption[i].text;
                 }
             }
         }
         else
         {
-            mainText.GetComponent<TextMeshProGUI>().text = branch.DialogueLInes[currentIndex];
+            mainText.GetComponent<TextMeshProUGUI>().text = branch.DialogueLines[currentIndex];
             continueText.SetActive(true);
             currentIndex++;
         }
