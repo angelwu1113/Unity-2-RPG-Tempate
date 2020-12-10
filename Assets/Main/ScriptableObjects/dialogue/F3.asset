@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c6ea28302d14560a1f3f816ae9881e, type: 3}
   m_Name: F3
   m_EditorClassIdentifier: 
-  dialogueId: 
+  dialogueId: F3
   DialogueLines: []
   ResponseOption: []

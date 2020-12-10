@@ -12,6 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c6ea28302d14560a1f3f816ae9881e, type: 3}
   m_Name: Funny Branch
   m_EditorClassIdentifier: 
-  dialogueId: 
-  DialogueLines: []
-  ResponseOption: []
+  dialogueId: funny
+  DialogueLines:
+  - Hey there stranger!
+  - You're stupid.
+  - Are you eating dinner in the restroom?
+  ResponseOption:
+  - text: Yes
+    nextBranch: {fileID: 11400000, guid: a7c872eaeef544215aa6147c89a8957d, type: 2}
+  - text: No
+    nextBranch: {fileID: 11400000, guid: e3a53dcbad47f484ea1b5cf6c03d169d, type: 2}
+  - text: What do I like a savage?
+    nextBranch: {fileID: 11400000, guid: e37c5622d059448faa093cdade11b724, type: 2}

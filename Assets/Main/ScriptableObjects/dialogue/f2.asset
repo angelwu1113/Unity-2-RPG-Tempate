@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c6ea28302d14560a1f3f816ae9881e, type: 3}
   m_Name: f2
   m_EditorClassIdentifier: 
-  dialogueId: 
-  DialogueLines: []
-  ResponseOption: []
+  dialogueId: F2
+  DialogueLines:
+  - Yeet
+  ResponseOption:
+  - text: 11
+    nextBranch: {fileID: 0}

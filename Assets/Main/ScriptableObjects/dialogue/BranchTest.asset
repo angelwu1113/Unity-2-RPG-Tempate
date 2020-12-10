@@ -19,8 +19,8 @@ MonoBehaviour:
   - do u like?
   ResponseOption:
   - text: Yes
-    nextbranch: {fileID: 11400000, guid: cf5dc302cbadf4506b782f145d1b799d, type: 2}
+    nextBranch: {fileID: 11400000, guid: cf5dc302cbadf4506b782f145d1b799d, type: 2}
   - text: No
-    nextbranch: {fileID: 11400000, guid: 0be1cb17f89964e79982b71049b887a3, type: 2}
+    nextBranch: {fileID: 11400000, guid: 0be1cb17f89964e79982b71049b887a3, type: 2}
   - text: Maybe
-    nextbranch: {fileID: 11400000, guid: 600a40f17bee34a9daeda4a3f2df2fbb, type: 2}
+    nextBranch: {fileID: 11400000, guid: 600a40f17bee34a9daeda4a3f2df2fbb, type: 2}
